@@ -1,3 +1,17 @@
+# v0.9.0 (8-Feb-2024)
+
+## Features
+- Adds sample data methods for testing and document builds
+- Adds tests: test_get_horizons_coord, test_vso_search, test_hek_client, and test_parameter_fit_polynomial
+
+## Major Changes
+- Changes the fitting time input from map.date to map.date_average when exist (see #24)
+
+## Minor Changes
+- Improves the following utilities: make_figure, maps_process, plot_fitting_model
+- Improves the test_get_hek_flare and test_hek_client tests
+- Changes how best_fit_x is defined in the parameters_fit utility
+
 # v0.8.1 (13-Jan-2024)
 
 ## Features
